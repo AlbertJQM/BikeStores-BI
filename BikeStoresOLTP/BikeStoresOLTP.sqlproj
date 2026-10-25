@@ -71,12 +71,28 @@
     <Build Include="Schema\Tables\brands.sql" />
     <Build Include="Schema\Tables\products.sql" />
     <Build Include="Schema\Tables\customers.sql" />
+    <Build Include="Schema\Tables\stores.sql" />
+    <Build Include="Schema\Tables\staffs.sql" />
+    <Build Include="Schema\Tables\orders.sql" />
+    <Build Include="Schema\Tables\order_items.sql" />
+    <Build Include="Schema\Tables\stocks.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetCustomerChangesByRowVersion.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\GetDatabaseRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetOrdersChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetProductChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetStaffChangesByRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetStoreChangesByRowVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\categories.data.sql" />
     <None Include="Scripts\brands.data.sql" />
+    <None Include="Scripts\products.data.sql" />
+    <None Include="Scripts\customers.data.sql" />
+    <None Include="Scripts\stores.data.sql" />
+    <None Include="Scripts\stocks.data.sql" />
+    <None Include="Scripts\staffs.data.sql" />
+    <None Include="Scripts\orders.data.sql" />
+    <None Include="Scripts\order_items.data.sql" />
     <None Include="Scripts\clean.data.sql" />
   </ItemGroup>
   <ItemGroup>

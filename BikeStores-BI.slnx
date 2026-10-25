@@ -1,6 +1,11 @@
 <Solution>
   <Folder Name="/Databases/" />
-  <Folder Name="/Databases/Data Warehouse/" />
+  <Folder Name="/Databases/Data Warehouse/">
+    <Project Path="BikeStoresDW/BikeStoresDW.sqlproj" Id="965b3c29-eb9a-4563-91ee-7e1cff93e9c0">
+      <Build />
+      <Deploy />
+    </Project>
+  </Folder>
   <Folder Name="/Databases/OLTP/">
     <Project Path="BikeStoresOLTP/BikeStoresOLTP.sqlproj" Id="69cde85c-c6c3-4ffb-af07-a758e3c125bc">
       <Build />

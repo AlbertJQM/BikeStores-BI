@@ -13,3 +13,10 @@ Plantilla de script posterior a la implementación
 :r .\clean.data.sql
 :r .\brands.data.sql
 :r .\categories.data.sql
+:r .\products.data.sql
+:r .\customers.data.sql
+:r .\stores.data.sql
+:r .\stocks.data.sql
+:r .\staffs.data.sql
+:r .\orders.data.sql
+:r .\order_items.data.sql
