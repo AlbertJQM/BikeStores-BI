@@ -77,6 +77,18 @@
     <Build Include="Schema\Tables\stg\Product.sql" />
     <Build Include="Schema\Tables\dw\DimDate.sql" />
     <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimCustomer.sql" />
+    <Build Include="Schema\Tables\dw\DimStaff.sql" />
+    <Build Include="Schema\Tables\dw\DimStore.sql" />
+    <Build Include="Schema\Tables\dw\FactOrder.sql" />
+    <Build Include="Schema\Tables\stg\Staff.sql" />
+    <Build Include="Schema\Tables\stg\Store.sql" />
+    <Build Include="Schema\Tables\stg\Orders.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimProduct.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimStaff.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeDimStore.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\DW_MergeFactOrders.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\GetLastPackageRowVersion.sql" />
+    <Build Include="Schema\Programmability\Stored Procedures\UpdateLastPackageRowVersion.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\DimDate.data.sql" />
